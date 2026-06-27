@@ -18,7 +18,7 @@
 ## 🚀 Deskripsi Proyek
 **Nusantara Agri-Exchange (NAX)** adalah sebuah prototipe platform e-commerce *Business-to-Business* (B2B) yang dirancang untuk memodernisasi rantai pasok ekspor komoditas unggulan Indonesia, khususnya Kopi Spesialti dan Rempah Premium. 
 
-🌐 **Live Website (GitHub Pages):** [LINK GITHUB PAGES]
+🌐 **Live Website (GitHub Pages):** [https://hamdanyuwavi04-dotcom.github.io/Final_Project/]
 
 ---
 
