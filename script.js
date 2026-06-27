@@ -7,3 +7,14 @@ const PRODUCTS_DATA = [
 ];
 
 console.log('NAX Data Produk dimuat:', PRODUCTS_DATA);
+function renderProducts() {
+    const grid = document.getElementById('productsGrid');
+    grid.innerHTML = PRODUCTS_DATA.map(p => `
+        <div class="product-card">
+            <h3>${p.name}</h3>
+            <p>Harga: $${p.price} / ${p.unit}</p>
+            <span class="badge">${p.badge}</span>
+        </div>
+    `).join('');
+}
+document.addEventListener('DOMContentLoaded', renderProducts);
