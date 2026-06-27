@@ -26,29 +26,27 @@
 Berikut adalah antarmuka website yang responsif di berbagai perangkat (Desktop & Mobile):
 
 ### 1. Halaman Beranda (Hero Section)
-![Halaman Beranda](images/screenshot1.jpg)
+![Halaman Beranda](images/screenshot1.jpg.jpeg)
 
 ### 2. Katalog Produk & Filter
-![Katalog Produk](images/screenshot2.jpg)
+![Katalog Produk](images/screenshot2.jpg.jpeg)
 
-### 3. Fitur Keranjang Belanja (Cart)
-![Keranjang Belanja](images/screenshot3.jpg)
+### 3. Halaman B2B Checkout & Simulasi PO
+![Halaman Checkout](images/screenshot4.jpg.jpeg)
 
-### 4. Halaman B2B Checkout & Simulasi PO
-![Halaman Checkout](images/screenshot4.jpg)
+### 4. Dashboard Analitik (Chart.js)
+![Data Analitik](images/screenshot5.jpg.jpeg)
 
-### 5. Dashboard Analitik (Chart.js)
-![Data Analitik](images/screenshot5.jpg)
-
-### 6. Panel Admin (Client-side)
-![Panel Admin](images/screenshot6.jpg)
+### 5. Panel Admin (Client-side)
+![Panel Admin](images/screenshot6.jpg.jpeg)
 
 ---
 
 ## 🎥 Video Demonstrasi
 Untuk melihat bagaimana seluruh fitur (Add to Cart, RFQ, Ganti Bahasa, dan Panel Admin) berfungsi secara *real-time*, silakan tonton video demo singkat berikut:
 
-🔗 **[Tonton Video Demonstrasi NAX di sini](_LINK_)**
+### 🎥 Video Demonstrasi NAX
+[![Klik untuk menonton video demo NAX](https://img.youtube.com/vi/PFAbVMvqtvI/0.jpg)](https://www.youtube.com/watch?v=PFAbVMvqtvI)
 
 ---
 
