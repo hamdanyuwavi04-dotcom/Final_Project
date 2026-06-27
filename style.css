@@ -11,3 +11,13 @@
 .brand-name { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: var(--primary-deep); }
 .nav-menu { display: flex; gap: 24px; }
 .nav-link { text-decoration: none; color: #2b2520; font-size: 14px; font-weight: 500; }
+
+/* Styling Hero Section */
+.hero-section { padding: 80px 0; border-bottom: 1px solid #e6ded5; }
+.hero-container { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 60px; }
+.hero-content h1 { font-family: 'Playfair Display', serif; font-size: 42px; color: var(--primary-deep); line-height: 1.2; margin-bottom: 20px; }
+.hero-content p { font-size: 16px; color: #6e655f; margin-bottom: 36px; }
+.badge { background-color: rgba(74, 47, 27, 0.08); color: var(--primary-deep); padding: 6px 14px; border-radius: 30px; font-size: 12px; font-weight: 600; text-transform: uppercase; margin-bottom: 16px; display: inline-block; }
+.btn { padding: 14px 28px; font-weight: 600; text-decoration: none; border-radius: 4px; transition: 0.3s; }
+.btn-primary { background-color: #4a2f1b; color: #fff; }
+.btn-primary:hover { background-color: var(--primary-deep); }
