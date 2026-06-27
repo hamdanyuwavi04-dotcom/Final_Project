@@ -17,4 +17,32 @@ function renderProducts() {
         </div>
     `).join('');
 }
+// ===== LOGIKA KERANJANG BELANJA =====
+let cart = [];
+
+function addToCart(productId) {
+    const product = PRODUCTS_DATA.find(p => p.id === productId);
+    const existing = cart.find(item => item.id === productId);
+    
+    if (existing) {
+        existing.quantity += 1;
+    } else {
+        cart.push({ ...product, quantity: 1 });
+    }
+    renderCart();
+    alert('Produk ditambahkan ke keranjang!');
+}
+
+function renderCart() {
+    const cartList = document.getElementById('cartList');
+    if (!cartList) return;
+    
+    cartList.innerHTML = cart.map(item => `
+        <div class="cart-item">
+            <span>${item.name}</span>
+            <span>${item.quantity} x $${item.price}</span>
+        </div>
+    `).join('');
+}
 document.addEventListener('DOMContentLoaded', renderProducts);
+}
